@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francisco Silva's Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://github.com/FranciscoSilvaMgLPT" target="_blank">
+          <img
+            class="socialImg"
+            src="Images&Videos/Svg/github-mark-white.svg"
+            alt="Github"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/francisco-silva-918ab7300/"
+          target="_blank"
+        >
+          <img
+            class="socialImg"
+            src="Images&Videos/Svg/linkedIn.png"
+            alt="LinkedIn"
+          />
+        </a>
+        <a href="https://www.instagram.com/chicosilva.vc/" target="_blank">
+          <img
+            class="socialImg"
+            src="Images&Videos/Svg/icons8-instagram.svg"
+            alt="Instagram"
+          />
+        </a>
+      </nav>
+
+      <div id="aboutMeDiv">
+        <h1>Francisco Silva</h1>
+        <div id="AboutMeImgDiv">
+          <h2 id="aboutMeText">
+            Bem-vindo ao meu portfólio! Meu nome é Francisco Silva, e sou um
+            profissional dedicado com uma forte ética de trabalho e uma paixão
+            pelo desenvolvimento de software. Tenho focado em entregar soluções
+            de alta qualidade combinando minha experiência técnica com um
+            compromisso com a excelência. Eu prospero em ambientes desafiadores
+            onde posso aplicar minhas habilidades para resolver problemas
+            complexos e contribuir para o sucesso de projetos.
+            Profissionalmente, tenho uma sólida formação tanto em
+            desenvolvimento front-end quanto em back-end. Eu me especializo em
+            Java e tenho ampla experiência em: Desenvolvimento de Back-end,
+            Gerenciamento de Banco de Dados (MySQL, PostgreSQL), Codificação de
+            Front-end (HTML, CSS, JavaScript), Desenvolvimento Java (Spring Boot,
+            JPA), Desenvolvimento de APIs, Solução de Problemas e Melhoria de
+            Desempenho, Gerenciamento de Projetos e Estratégia. Além disso, sou
+            proficiente em uma variedade de ferramentas e tecnologias, como JSON,
+            Docker, JUnit, Maven, Apache Maven e outros, incluindo JSON Web Token
+            (JWT). Em resumo, trago uma riqueza de experiência e um forte
+            compromisso com cada projeto que assumo. Estou comprometido em
+            fornecer soluções inovadoras e exceder expectativas. Aguardo com
+            expectativa a oportunidade de colaborar com você e contribuir para o
+            seu sucesso. Sinta-se à vontade para explorar minha página para saber
+            mais sobre minhas habilidades e projetos!
+          </h2>
+             <img id="image"
+          src="Images&Videos/TCCDU1MTK-U042NMRMA84-53712636b45d-512.jpeg"
+          alt="Francisco Silva"
+        />
+        </div>
+      </div>
+
+      <hr class="slow-appear hr-white" width="100%" size="3" color="whitesmoke" />
+      <hr class="slow-appear hr-mid" width="100%" size="6" color="#7490F6" />
+      <hr class="slow-appear hr-blue" width="100%" size="12" color="blue" />
+    </header>
+    <main>
+      <div class="titleContainer">
+        <button id="prev">❮</button>
+        <div class="title-slide">
+          <img class="titleImg" src="Images&Videos/portfolio-gif.gif" alt="Portfolio GIF" />
+        </div>
+        <div class="title-slide">
+          <img class="titleImg" src="Images&Videos/wizard/Harry1.png" alt="Harry Potter" />
+        </div>
+        <div class="title-slide">
+          <img class="titleImg" src="Images&Videos/shrek/Shrek.png" alt="Shrek" />
+        </div>
+        <div class="title-slide">
+          <img class="titleImg" src="Images&Videos/pokemon/Pokemon.png" alt="Pokemon" />
+        </div>
+        <button id="next">❯</button>
+      </div>
+
+      <div class="contentContainer">
+        <div id="soundControl">
+          <img src="Images&Videos/sound.gif" alt="sound/mute" id="soundImg" />
+        </div>        
+        <!-- About Me -->
+        <div class="content-slide">    
+          <video class="videoSlide" src="" autoplay></video>
+        </div>
+        <!-- Wizard -->
+        <div class="content-slide">      
+          <video class="videoSlide" src="Images&Videos/wizard/HarryPotter.mp4" autoplay></video>
+          <div class="explanation">
+            <h2>CREATE A WIZARD</h2>
+            <h4>Get ready to create a wizard! Choose his name, and you will be assigned a house and given a pet.</h4>
+          </div>
+          <img id="harryHatImg" src="Images&Videos/wizard/harryHat1-removebg-preview.png" alt="Sorting Hat" />
+          <div id="harryFormDiv">
+            <img class="harryCreation" id="harryCreationPet"/>
+            <img id="harryFormImg" src="Images&Videos/wizard/aaaaacircle-unscreen.gif" alt="Wizard Creation" />
+            <form id="harryForm">
+              <label for="nameHarryInput">WIZARD NAME</label>
+              <br /><br />
+              <input type="text" id="nameHarryInput" name="name" required />
+              <br /><br />
+              <div id="harrySubmitDiv">
+                <button type="submit" id="harrySubmit">Create</button>
+              </div>
+            </form>
+            <h3 class="harryCreation" id="harryCreationText"></h3>
+          </div>
+        </div>
+        <!-- Shrek -->
+        <div class="content-slide">    
+          <video class="videoSlide" src="Images&Videos/shrek/Shrek.mp4" autoplay></video>
+          <div id="shrekFormDiv">
+            <img id="shrekFormImg" src="Images&Videos/shrek/ShrekCircle.gif" alt="Shrek" />
+            <form id="shrekForm">
+              <label for="nameShrekInput">CHARACTER NAME</label>
+              <br /><br />
+              <input type="text" id="nameShrekInput" name="name" required />
+              <br /><br />
+              <div id="shrekSubmitDiv">
+                <button type="submit" id="shrekSubmit">Create</button>
+              </div>
+            </form>
+          </div>
+          <img id="shrekMirror" src="Images&Videos/shrek/mirror.gif" alt="">
+        </div>
+        <!-- Pokemon -->
+        <div class="content-slide">      
+          <video class="videoSlide" src="Images&Videos/pokemon/Pokemon.mp4" autoplay></video>
+        </div>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

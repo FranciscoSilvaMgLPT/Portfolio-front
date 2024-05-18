@@ -1,0 +1,197 @@
+html {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  color: white;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#aboutMeDiv {
+  text-align: center;
+}
+
+#AboutMeImgDiv {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#image{
+  width: 300px;
+  height: fit-content;
+  padding: 50px;
+}
+
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#prev,
+#next {
+  margin: 60px;
+  cursor: pointer;
+  background-color: rgba(137, 165, 170, 0.3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.7s ease;
+}
+
+button:hover,
+#prev:hover,
+#next:hover {
+  background-color: rgb(63, 133, 194);
+}
+
+#harrySubmit {
+  cursor: url("Images&Videos/Svg/wandNobg.svg"), auto;
+}
+
+.hr-blue {
+  background-color: blue;
+  animation: slowAppear 3s forwards;
+}
+
+.hr-mid {
+  background-color: rgb(116, 144, 246);
+  animation: slowAppear 4s forwards;
+}
+
+.hr-white {
+  background-color: white;
+  animation: slowAppear 5s forwards;
+}
+
+@keyframes slowAppear {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.socialImg {
+  width: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.7s ease;
+}
+
+.socialImg:hover {
+  background-color: #17aae4;
+}
+
+.titleImg {
+  max-height: 250px;
+}
+
+.title-slide {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.videoSlide {
+  width: 100%;
+  height: auto;
+}
+
+#harryHatImg {
+  width: 450px;
+  display: block;
+  margin: auto;
+}
+
+#harryFormDiv{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+}
+
+#shrekFormDiv {
+  position: relative;
+  text-align: center;
+}
+#shrekFormImg {
+  width: 250px;
+  height: 250px;
+}
+
+#harryFormImg{
+  width: 450px;
+  height: 450px;
+}
+
+#harryForm, #shrekForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#harrySubmit #shrekSubmit {
+  border-radius: 10px;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+#harrySubmitDiv, #shrekSubmitDiv {
+  height: 30px;
+}
+
+.fade-out-img {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.fade-in-img {
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+
+.explanation {
+  text-align: center;
+}
+
+#soundImg {
+  display: block;
+  margin: 0 auto; 
+  width: 150px;
+}
+
+.harryCreation{
+  align-self: center;
+  width: 400px;
+}
+
+#shrekMirror{
+  width: 400px;
+  display: block;
+  margin: auto;
+}
